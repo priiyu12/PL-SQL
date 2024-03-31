@@ -1,9 +1,8 @@
 DECLARE
-    input_string VARCHAR2(100) := 'ORACLE';
-    output_string VARCHAR2(100);
+    str VARCHAR2(100) := 'ORACLE';
 BEGIN
-    FOR i IN 1..LENGTH(input_string) LOOP
-        DBMS_OUTPUT.PUT_LINE(SUBSTR(input_string, 1, i));
+    FOR i IN 1..LENGTH(str) LOOP
+        DBMS_OUTPUT.PUT_LINE(SUBSTR(str, 1, i));
     END LOOP;
 END;
 /
