@@ -1,0 +1,22 @@
+1. Write a PL/SQL block to find area and perimeter of square.
+2. Write a PL/SQL block to find area and perimeter of rectangle.
+3. Write a PL/SQL block to find area of a circle.
+4. Write a PL/SQL block to find circumference of a circle.
+5. Write a PL/SQL block to find simple interest.
+6. Write a PL/SQL block to find compound interest.
+7. Write a PL/SQL block to swap the two values given with using third
+variable.
+8. Write a PL/SQL block to swap the two value given without using third
+variable.
+9. Write a PL/SQL block to accept the cost price and selling price of an
+item and find the loss or profit.
+10. Write a PL/SQL block to find volume of cube.
+11. Write a PL/SQL block to convert temperature from Fahrenheit to
+Degree Celsius.
+12. Write a PL/SQL block to convert length in feet to centimetre.
+13. Write a PL/SQL block to calculate the sum of 5 subject and find the
+percentage.
+14. Write a PL/SQL block to accept number from user and find addition,
+subtraction, multiplication and division.
+15. Write a program to calculate the area of a triangle by accepting the 3
+sides.
