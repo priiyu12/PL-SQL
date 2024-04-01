@@ -1,0 +1,17 @@
+CREATE OR REPLACE PROCEDURE up1
+AS
+BEGIN
+	UPDATE employee
+    SET sal = sal + 1000
+    WHERE name LIKE 'A%';
+
+	COMMIT;
+	DBMS_OUTPUT.PUT_LINE('Salary Updated !');
+
+EXCEPTION
+    WHEN NO_DATA_FOUND THEN
+    	DBMS_OUTPUT.PUT_LINE('No Record Available');
+	WHEN OTHERS THEN
+        DBMS_OUTPUT.PUT_LINE('Error Occured: ' || SQLERRM);
+END;
+/

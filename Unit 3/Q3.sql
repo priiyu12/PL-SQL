@@ -1,0 +1,16 @@
+CREATE OR REPLACE PROCEDURE del1
+AS
+BEGIN
+	DELETE employee
+    WHERE dep = 'Finance';
+
+	COMMIT;
+	DBMS_OUTPUT.PUT_LINE('Records Deleted!');
+
+EXCEPTION
+    WHEN NO_DATA_FOUND THEN
+    	DBMS_OUTPUT.PUT_LINE('No Record Available');
+	WHEN OTHERS THEN
+        DBMS_OUTPUT.PUT_LINE('Error Occured: ' || SQLERRM);
+END;
+/
